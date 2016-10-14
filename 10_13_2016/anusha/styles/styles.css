@@ -1,0 +1,15 @@
+
+form{
+float:left; /*to clear the floats of inner elements,usefull if you wanna add a border or background image*/
+width:2px;
+}
+label{
+float:left;
+width:150px;
+margin-bottom:10px; /*or whatever you want the spacing to be*/
+}
+input{
+float:left;
+width:150px;
+margin-bottom:10px; /*or whatever you want the spacing to be*/
+}
