@@ -6,8 +6,8 @@ ul,li{
 	margin-left:20px;
 	text-align: center;
 	font-size: 15px;
-    cursor: pointer;
-    font-family:Georgia;
+        cursor: pointer;
+    	font-family:Georgia;
 
 }
 
@@ -26,16 +26,16 @@ form{
 margin: 150px 250px;
 font-size: 20px;
 font-family:Georgia;
-
 }
+
 label{
 color:black;
 padding:5px;
 margin:5px;
  /*or whatever you want the spacing to be*/
 }
-input{
 
+input{
 padding:10px; /*or whatever you want the spacing to be*/
 color:black;
 padding-right: 5px;
