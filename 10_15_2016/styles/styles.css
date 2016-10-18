@@ -1,0 +1,55 @@
+ul,li{
+
+	list-style-type:none;
+	display:inline-block;
+	padding:20px;
+	margin-left:20px;
+	text-align: center;
+	font-size: 15px;
+    cursor: pointer;
+    font-family:Georgia;
+
+}
+
+li {
+    background-color: white;
+    color: black;
+    border: 2px solid #f46293;
+}
+
+li:hover {
+    background-color: #cfdfe3;
+    color: white;
+}
+
+form{
+margin: 150px 250px;
+font-size: 20px;
+font-family:Georgia;
+
+}
+label{
+color:black;
+padding:5px;
+margin:5px;
+ /*or whatever you want the spacing to be*/
+}
+input{
+
+padding:10px; /*or whatever you want the spacing to be*/
+color:black;
+padding-right: 5px;
+}
+
+button{
+	 display:inline;
+	 cursor: pointer;
+	 color:#cfdfe3;
+	 background-color: #f46293;
+	 padding:10px;
+	 margin:5px;
+}
+button:hover{
+	color:black;
+	background-color: #fff;
+}
