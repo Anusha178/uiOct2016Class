@@ -17,33 +17,33 @@ li {
     border: 2px solid #f46293;
 }
 
-li:hover {
-    background-color: #cfdfe3;
-    color: white;
+li:hover{
+	    background-color: #cfdfe3;
+	    color: white;
 }
 
 form{
-margin-left: auto;
-margin-right: auto;
-font-size: 20px;
-font-family:Georgia;
-width: 350px;
-border: 5px solid #000;
-display:block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	font-family:Georgia;
+	width: 350px;
+	border: 5px solid #000;
+	display:block;
 }
 
 label{
 	
-display: inline-block;
-color:black;
-padding:15px; /*or whatever you want the spacing to be*/
+	display: inline-block;
+	color:black;
+	padding:15px; /*or whatever you want the spacing to be*/
 }
 
 input{
-display:inline-block;
-padding:10px 10px; /*or whatever you want the spacing to be*/
-color:black;
-margin: 10px 10px;
+	display:inline-block;
+	padding:10px 10px; /*or whatever you want the spacing to be*/
+	color:black;
+	margin: 10px 10px;
 }
 
 button{
@@ -53,8 +53,19 @@ button{
 	 background-color: #f46293;
 	 padding:10px;
 	 margin:5px;
+	 border-radius:3px;
 }
 button:hover{
 	color:black;
 	background-color: #fff;
+}
+button[type="reset"]{
+	background-color: #f00;
+	border-radius:3px;
+	color:black;
+}
+button[type="submit"]{
+	background-color: #0f0;
+	border-radius:3px;
+	color:black;
 }
