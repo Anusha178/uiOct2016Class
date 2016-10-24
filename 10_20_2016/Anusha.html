@@ -16,21 +16,22 @@
     <!--this is inline/attribute style-->
     <body>
 
-        <!--main article for forms-->
-        <article>
+    <!--main article for forms-->
+    <article>
 
-            <!--page header-->
-            <header id="main-heading">
-                <h1>Welcome to my website!</h1>
-            </header>
-
-            <!--main body of the page-->
-            <section id="main-section">
-                <article>
-                    <header id="nav-heading">
-                        <!--page naviagation-->
+        <!--page header-->
+        <header id="main-heading">
+            <h1>Welcome to my website!</h1>
+        </header>
+    
+        <!--main body of the page-->
+        <section id="main-section">
+            <article>
+                <header id="nav-heading">
+                    <!--page naviagation-->
+                    <section>
                         <nav>
-                            <ul>
+                            <ul id="menubar">
                                 <li>
                                     <a href="http://www.w3schools.com/css"> Learn CSS  </a>
                                 </li>
@@ -45,74 +46,75 @@
                                 </li>
                             </ul>
                         </nav>
-                    </header>
-
-                    <section>
-                        <!--form for new license in dmv-->
-                        <form name="newLicenseForm" method="post">
-                            <!--First Name-->
-                            <div class="container">
-                                <label for="firstName">Applicant's First Name:</label>
-                                <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
-                            </div>
-                            <br />
-                            <!--Last Name-->
-                            <div class="container">
-                                <label for="lastName">Applicant's Last Name:</label>
-                                <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name"/>
-                            </div>
-                            <br />
-                            <!--Phone Number-->
-                            <div>
-                                <label for="phoneNumber">Applicant's Phone Number:</label>
-                                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
-                            </div>
-                            <br />
-                            <!--Gender-->
-                            <div>
-                                <label for="gender">Applicant's Gender:</label>
-                                <div id="gender">
-                                    <!--male-->
-                                    <label for="male">Male:</label>
-                                    <input type="radio" id="male" name="gender" value="Male"/>
-
-                                    <!--female-->
-                                    <label for="female">Female:</label>
-                                    <input type="radio" id="female" name="gender" value="Female"/>
-                                </div>
-                                <br />
-                                <!--senior citizen-->
-                                <div class="container">
-                                    <label for="seniorCitizen">Is applicant a senior citizen?</label>
-                                    <input type="checkbox" id="seniorCitizen" name="seniorCitizen" data-srikar="viswa"/>
-                                </div>
-                                <!--submit button-->
-                                <button type="submit" id="submit">
-                                    <span><strong>Submit </strong></span>
-                                </button>
-                                <!--reset/cancel-->
-                                <button type="reset" id="reset">
-                                    <span><strong>Cancel </strong></span>
-                                </button>
-                        </form>
                     </section>
-                    <footer>  </footer>
-                </article>
-            </section>
+                </header>
 
-            <!--footer of the page-->
-            <footer id="main-footer">
-                I'm at the bottom
-                <!--page naviagation-->
-                <nav>
-                    <ul>
-                        <li> <a href="#">About us </a></li>
-                        <li> <a href="#">Contact </a> </li>
-                        <li> <a href="#">Login Form </a></li>
-                        <li> <a href="#">Reviews </a></li>
-                    </ul>
-                </nav>
-            </footer>
-        </article>
+                <section>
+                    <!--form for new license in dmv-->
+                    <form name="newLicenseForm" method="post">
+                        <!--First Name-->
+                        <div class="container">
+                            <label for="firstName">Applicant's First Name:</label>
+                            <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
+                        </div>
+                        <br />
+                        <!--Last Name-->
+                        <div class="container">
+                            <label for="lastName">Applicant's Last Name:</label>
+                            <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name"/>
+                        </div>
+                        <br />
+                        <!--Phone Number-->
+                        <div>
+                            <label for="phoneNumber">Applicant's Phone Number:</label>
+                            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                        </div>
+                        <br />
+                        <!--Gender-->
+                        <div>
+                            <label for="gender">Applicant's Gender:</label>
+                            <div id="gender">
+                                <!--male-->
+                                <label for="male">Male:</label>
+                                <input type="radio" id="male" name="gender" value="Male"/>
+
+                                <!--female-->
+                                <label for="female">Female:</label>
+                                <input type="radio" id="female" name="gender" value="Female"/>
+                            </div>
+                            <br />
+                            <!--senior citizen-->
+                            <div class="container">
+                                <label for="seniorCitizen">Is applicant a senior citizen?</label>
+                                <input type="checkbox" id="seniorCitizen" name="seniorCitizen" data-srikar="viswa"/>
+                            </div>
+                            <!--submit button-->
+                            <button type="submit" id="submit">
+                                <span><strong>Submit </strong></span>
+                            </button>
+                            <!--reset/cancel-->
+                            <button type="reset" id="reset">
+                                <span><strong>Cancel </strong></span>
+                            </button>
+                    </form>
+                </section>
+                <footer>  </footer>
+            </article>
+        </section>
+
+        <!--footer of the page-->
+        <footer id="main-footer">
+            I'm at the bottom
+            <!--page naviagation-->
+            <nav>
+                <ul id="footerbar">
+                    <li> <a href="#">About us </a></li>
+                    <li> <a href="#">Contact </a> </li>
+                    <li> <a href="#">Login Form </a></li>
+                    <li> <a href="#">Reviews </a></li>
+                </ul>
+            </nav>
+        </footer>
+    </article>
     </body>
 </html>
