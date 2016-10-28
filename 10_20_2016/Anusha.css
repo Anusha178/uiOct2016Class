@@ -1,70 +1,122 @@
-ul,li{
+#nav-heading > section > nav> ul> li{
 
-list-style-type:none;
-display:inline-block;
-padding:20px;
-margin-left:20px;
-text-align: center;
-font-size: 15px;
-cursor: pointer;
-font-family:Georgia;
-background:grey;
+	list-style-type:none;
+	display:inline-block;
+	padding:20px;
+	margin-left:20px;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	font-family:Georgia;
+	background: #88e0a8;
 
-
-}
-
-li {
-background-color: white;
-color: black;
-border: 2px solid #f46293;
-}
-
-li:hover {
-background-color: #cfdfe3;
-color: white;
-}
-
-form{
-margin: 150px 250px;
-font-size: 20px;
-font-family:Georgia;
 
 }
+
+
+#nav-heading > section > nav > ul >li:hover {
+	background-color: #cfdfe3;
+	color: red;
+	border:4px groove #f0f;
+	border-radius:3px;
+	}
+
+section > form {
+	margin: 150px 250px;
+	font-size: 20px;
+	font-family:Georgia;
+	border:5px groove #7bdd9e;
+	width: 327px;
+	padding: 15px;
+	border-radius: 3px;
+	border-width: thick;
+	margin-right:15px;
+	margin-left: 552px;
+}
+
+
+[id*=menubar]{
+
+	background: whitesmoke;
+	margin: 48px;
+	padding: 12px;
+	text-transform:1ms;
+	text-shadow: lavender;
+	font-style: initial;
+	font-weight: bold;
+	font-size:16px;
+}
+
 label{
-color:black;
-padding:5px;
-margin:5px;
- /*or whatever you want the spacing to be*/
+	
+	color:black;
+	padding:8px;
+	margin:-5px;
+	 /*or whatever you want the spacing to be*/
 }
 input{
 
-padding:10px; /*or whatever you want the spacing to be*/
-color:black;
-padding-right: 5px;
+	color:black;
+	padding: 9px;  /*or whatever you want the spacing to be*/
+	color: black;
+	padding-right: 46px;
+	margin: 9px;
 }
 
 button[type="submit"]{
- display:inline;
- cursor: pointer;
- color:#cfdfe3;
- background-color: #7459c5;
- padding:10px;
- margin:5px;
+	 display:inline;
+	 cursor: pointer;
+	 color:#cfdfe3;
+	 background-color: #7459c5;
+	 padding:10px;
+	 margin:5px;
 }
 button[type="submit"]:hover{
-color:black;
-background-color: #f4d85a;
+	color:black;
+	background-color: #f4d85a;
 }
 button[type="reset"]{
- display:inline;
- cursor: pointer;
- color:#cfdfe3;
- background-color: #d51553;
- padding:10px;
- margin:5px;
+	 display:inline;
+	 cursor: pointer;
+	 color:#cfdfe3;
+	 background-color: #d51553;
+	 padding:10px;
+	 margin:5px;
 }
 button[type="reset"]:hover{
-color:black;
-background-color: #3feb34;
+	color:black;
+	background-color: #3feb34;
 }
 
+#main-footer > nav > ul > li{
+
+	list-style-type:none;
+	display:inline-block;
+	padding:20px;
+	margin-left:20px;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	font-family:Georgia;
+	background: #cfdfe3;
+
+
+}
+#main-footer > nav > ul >li:hover {
+	background-color: #88e0a8;
+	color: red;
+	border:4px groove #8474dc;
+	border-radius:3px;
+}
+
+[id*=footerbar]{
+
+	background: #5b86ba;
+	margin: 48px;
+	padding: 12px;
+	text-transform:1ms;
+	text-shadow: lavender;
+	font-style: initial;
+	font-weight: bold;
+	font-size:16px;
+}
