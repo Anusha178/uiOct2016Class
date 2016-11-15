@@ -1,72 +1,59 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Signup Form</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
+    <title>Login Form </title>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet/less" href="../stylesheets/media.css">
+    <link rel="stylesheet" href="../stylesheets/responsive.css">
 </head>
+
 <body>
-<section class="container-fluid">
-    <header class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <form>
-                    <label>Name</label>
-                    <input name="name" placeholder="Type Here" required >
-
-                    <label>Email</label>
-                    <input name="email" type="email" placeholder="Type Here" require>
-
-                    <label>Address</label>
-                    <textarea name="address" placeholder="Type Here" required >
-
-							</textarea> &nbsp;
-
-                    <input id="submit" name="submit" type="submit" value="Submit">
-
-                </form>
+<header>
+    <h1>Responsive Login Form</h1>
+</header>
+<main>
+    <article id="form-container">
+        <h1>Welcome to filltheForm</h1>
+        <form class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p><a href="#" title="Login with Facebook" class="social-btn fb-btn">
+                        <span class="divider divider-fb"></span>
+                        <i class="glyphicon glyphicon-thumbs-up"></i>
+                        Login with facebook
+                    </a></p> </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p><a href="#" title="Login with Google" class="social-btn gp-btn">
+                        <span class="divider divider-gb"></span>
+                        <i class="glyphicon glyphicon-globe"></i>
+                        Login with Google
+                    </a></p></div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <figure>
-                    <img src="images/1.jpg">
-                </figure>
-            </div>
-        </div>
+            <div class="or-divider">OR</div>
 
-    </header>
-    &nbsp;&nbsp;
-    <article class="container-fluid">
-        <div class="container">
-            <div class="jumbotron">
-                <div class="row">
-                    <div class="col-md-4">
-                        <a href="images/viswa.jpg" class="thumbnail">
-                            <p> UI Consultancy</p>
-                            <img src="images/logo.png"  class="img-rounded" alt="mythri logo" style="height:150px;">
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="images/fb.png" class="thumbnail">
-                            <p> Team work</p>
-                            <img src="images/logo2.png" class="img-rounded" alt="mythri logo">
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="images/goodwork.jpg" class="thumbnail">
-                            <p> Keep Up the GOOD WORK</p>
-                            <img src="images/notebook.png" class="img-rounded" alt="mythri logo">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <input type="email" placeholder="email" name="email"><br>
 
+            <input type="password" placeholder="password" name="pwd"><br>
+
+            <input type="submit" value="sign in">
+
+            <div id="recover-new-account">
+                <a href="#">Forgot Password </a>
+                <span>|</span>
+                <a href="#"> Create an account </a>
+
+        </form>
 
     </article>
-    <footer></footer>
-</section>
+</main>
+
+<footer>
+    &copy;2013 | Created by UI dev- Login Forms
+</footer>
 </body>
+
+</html>
