@@ -4,56 +4,65 @@
     <title>Login Form </title>
     <meta charset="uft-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../stylesheets/main.css">
-    <link rel="stylesheet/less" href="../stylesheets/media.css">
-    <link rel="stylesheet" href="../stylesheets/responsive.css">
+    <link rel="stylesheet" href="../stylesheets/styles/styles.css">
+
 </head>
 
 <body>
-<header>
-    <h1>Responsive Login Form</h1>
-</header>
-<main>
-    <article id="form-container">
-        <h1>Welcome to filltheForm</h1>
-        <form class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <p><a href="#" title="Login with Facebook" class="social-btn fb-btn">
-                        <span class="divider divider-fb"></span>
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
-                        Login with facebook
-                    </a></p> </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <p><a href="#" title="Login with Google" class="social-btn gp-btn">
-                        <span class="divider divider-gb"></span>
-                        <i class="glyphicon glyphicon-globe"></i>
-                        Login with Google
-                    </a></p></div>
-            </div>
+    <header>
+        <div id="Responsiveform">THE LUCKY ONES</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Reviews</a></li>
+                </ul>
+            </nav>
+    </header>
 
-            <div class="or-divider">OR</div>
+    <main>
+        <article id="form-container">
+            <h1>Welcome to filltheForm</h1>
+            <form class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <p><a href="#" title="Login with Facebook" class="social-btn fb-btn">
+                            <span class="divider divider-fb"></span>
+                            <i class="glyphicon glyphicon-thumbs-up"></i>
+                            Login with facebook
+                        </a></p> </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <p><a href="#" title="Login with Google" class="social-btn gp-btn">
+                            <span class="divider divider-gb"></span>
+                            <i class="glyphicon glyphicon-globe"></i>
+                            Login with Google
+                        </a></p></div>
+                </div>
 
-            <input type="email" placeholder="email" name="email"><br>
+                <div class="or-divider">OR</div>
 
-            <input type="password" placeholder="password" name="pwd"><br>
+                <input type="email" placeholder="email" name="email" required=""><br>
 
-            <input type="submit" value="sign in">
+                <input type="password" placeholder="password" name="pwd" required=""><br>
 
-            <div id="recover-new-account">
-                <a href="#">Forgot Password </a>
-                <span>|</span>
-                <a href="#"> Create an account </a>
+                <input type="submit" value="sign in">
 
-        </form>
+                <div id="recover-new-account">
+                    <a href="#">Forgot Password </a>
+                    <span>|</span>
+                    <a href="#"> Create an account </a>
 
-    </article>
-</main>
+            </form>
 
-<footer>
-    &copy;2013 | Created by UI dev- Login Forms
-</footer>
+        </article>
+    </main>
+
+    <footer>
+        &copy;2013 | Created by UI dev- Login Forms
+    </footer>
 </body>
 
 </html>
