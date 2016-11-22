@@ -24,8 +24,8 @@ footer {
 }
 body,
 html {
-  font-size: 15px;
-  font-family: Arial;
+  font-size: 18px;
+  ssfont-family: Arial;
 }
 #Responsiveform {
   font-family: sans-serif;
@@ -34,6 +34,10 @@ html {
   float: left;
   color: #496bae;
 }
+#logo-container {
+  width: 100%;
+  height: auto;
+}
 nav {
   width: 100%;
   text-align: center;
@@ -41,6 +45,7 @@ nav {
 nav ul {
   float: right;
   line-height: 50px;
+  font-size: 18px;
 }
 nav li {
   display: inline;
@@ -55,13 +60,13 @@ nav a {
 nav a:hover {
   color: #C00;
 }
-main a {
-  text-decoration: none;
-}
 main {
   width: 35%;
   min-width: 480px;
   margin: 15px auto ;
+}
+main a {
+  text-decoration: none;
 }
 #form-container {
   box-shadow: 0 0 10px 1px #999;
@@ -96,14 +101,14 @@ input[type="submit"] {
 }
 .fb-btn {
   background-color: #3b5998;
-  transition: 0.1s background ease-in-out;
-}
-.gp-btn {
-  background-color: #d34836;
-  transition: 0.1s background ease-in-out;
+  transition: 0.3s background ease-in-out;
 }
 .fb-btn:hover {
   background-color: #3f60a5;
+}
+.gp-btn {
+  background-color: #d34836;
+  transition: 0.3s background ease-in-out;
 }
 .gp-btn:hover,
 input[type="submit"]:hover {
@@ -114,7 +119,7 @@ form p {
 }
 .social-btn i {
   display: inline-block;
-  width: 3rem;
+  width: 2rem;
   font-size: 1.6rem;
   text-align: center;
   vertical-align: middle;
@@ -135,20 +140,20 @@ form p {
 }
 input[type="email"],
 input[type="password"] {
-  border: 1px solid #dcc1c1;
+  border: 2px solid #dcc1c1;
   text-indent: 1rem;
   color: #666;
-  transition: 0.1s font ease-in-out;
+  transition: 0.2s font ease-in-out;
 }
 input[type="email"]:hover,
 input[type="password"]:hover {
-  border: 1px solid #d65646;
+  border: 3px solid #d65646;
 }
 input[type="email"]:focus,
 input[type="password"]:focus,
 input[type="email"]:active,
 input[type="password"]:active {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   border: 1px solid #00c1a8;
   color: #3b5998;
 }
@@ -163,16 +168,13 @@ input[type="submit"] {
 #recover-new-account {
   display: flex;
   justify-content: space-around;
+  color: #dcc1c1;
 }
 #recover-new-account a {
-  color: ;
   text-align: center;
 }
 #recover-new-account a:hover {
   color: #03d0b6;
-}
-#recover-new-account {
-  color: #dcc1c1;
 }
 @media screen and (max-width: 768px) {
   #Responsiveform {
@@ -233,6 +235,14 @@ input[type="submit"] {
   .breadcrumb {
     width: 100%;
     height: auto;
+  }
+}
+/* Resize Background*/
+@media only screen and (max-width: 1200px) {
+  #logo-container {
+    width: 100%;
+    height: auto;
+    background-size: 100% auto !important;
   }
 }
 * {
@@ -340,4 +350,15 @@ textarea {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+}
+ul.breadcrumb {
+  padding: 8px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+}
+ul.breadcrumb a {
+  color: #000;
 }

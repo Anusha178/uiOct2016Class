@@ -3,7 +3,9 @@
 <head>
     <title>Login Form </title>
     <meta charset="uft-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../stylesheets/styles/styles.css">
 
 </head>
@@ -11,16 +13,19 @@
 <body>
     <header>
         <div id="Responsiveform">THE LUCKY ONES</div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Reviews</a></li>
-                </ul>
-            </nav>
+        <figure id="logo-container">
+            <img src="../images/sigma.png"/>
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -28,18 +33,23 @@
             <h1>Welcome to filltheForm</h1>
             <form class="container">
                 <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <!--<div>-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                         <p><a href="#" title="Login with Facebook" class="social-btn fb-btn">
                             <span class="divider divider-fb"></span>
-                            <i class="glyphicon glyphicon-thumbs-up"></i>
+                            <!--<i class="glyphicon glyphicon-thumbs-up"></i>-->
+                            <i class="fa fa-facebook"></i>
                             Login with facebook
-                        </a></p> </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        </a></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                         <p><a href="#" title="Login with Google" class="social-btn gp-btn">
                             <span class="divider divider-gb"></span>
-                            <i class="glyphicon glyphicon-globe"></i>
+                            <!--<i class="glyphicon glyphicon-globe"></i>-->
+                            <i class="fa fa-google-plus"></i>
                             Login with Google
-                        </a></p></div>
+                        </a></p>
+                    </div>
                 </div>
 
                 <div class="or-divider">OR</div>
@@ -54,14 +64,19 @@
                     <a href="#">Forgot Password </a>
                     <span>|</span>
                     <a href="#"> Create an account </a>
-
+                </div>
             </form>
 
         </article>
     </main>
 
-    <footer>
-        &copy;2013 | Created by UI dev- Login Forms
+    <footer class="breadcrumb">
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="">&copy;2013 | Created by UI dev- Login Forms</a></li>
+        </ul>
     </footer>
 </body>
 
