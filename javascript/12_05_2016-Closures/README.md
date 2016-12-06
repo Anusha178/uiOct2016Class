@@ -7,7 +7,7 @@ Then, the call inside that 'innerFunc' will always invoke the newly created vari
 
     example:
     function outer(){
-        var test = 'Srikar';
+        var test = 'Srikar'; //global
     
         function inner(){
             var test = 100;
