@@ -3,21 +3,24 @@
   'use strict';
 
   // callback function for controller
-  function HomeController($scope,$location){
-    $scope.user = {
-      'username': '',
-      'password': ''
-    };
+  function HomeController(UserFactory,LoginService,URLFactory,APIService){
+    // vm = view model
+    var vm = this;
 
-    $scope.loginUser = function(){
-      if($scope.user.username === 'Srikar' && $scope.user.password === 'Shastry'){
-        console.log('Login was successful');
-        $location.path('/about');
-      }
+    vm.user = angular.copy(UserFactory.user);
+    vm.loginHasFailed = false;
+
+    vm.photos = [];
+    APIService.get(URLFactory.photos,'array').then(function(data){
+      vm.photos = angular.copy(data);
+    });
+
+    vm.loginUser = function(){
+      LoginService.performLogin(vm);
     };
   }
   // inject the dependencies
-  HomeController.$inject = ['$scope','$location'];
+  HomeController.$inject = ['UserFactory','LoginService','URLFactory','APIService'];
 
   // call the module and define the controller
   angular.module('projectApp.controllers').controller('HomeController',HomeController);
